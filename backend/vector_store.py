@@ -32,7 +32,7 @@ def chunk_text(text, chunk_size=500):
 
 def add_to_index(text):
     
-    chunks = split_text(text)   # 👈 important
+    chunks = split_text(text)   #  important
 
     embeddings = model.encode(chunks)
 
@@ -44,8 +44,8 @@ def search(query):
     try:
         print("---- DEBUG START ----")
 
-        query_vector = embeddings(query)   # IMPORTANT
-        D, I = index.search(query_vector, k=5)  # YOU WERE MISSING THIS
+        query_vector = embeddings(query)   
+        D, I = index.search(query_vector, k=5) 
 
         print("Documents length:", len(documents))
         print("Raw Index Output (I):", I)
