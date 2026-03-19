@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+langchain
+openai
+pypdf
+python-docx
+faiss-cpu
+pytesseract
+opencv-python

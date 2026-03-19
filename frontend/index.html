@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Knowledge Hub</title>
+</head>
+<body>
+
+<h1>🤖 AI Knowledge Hub</h1>
+
+<!-- 🔹 CHAT -->
+<h2>Ask Question</h2>
+<form action="http://127.0.0.1:8000/chat/" method="post">
+    <input type="text" name="query" placeholder="Ask something..." required>
+    <button type="submit">Ask</button>
+</form>
+
+<hr>
+
+<!-- 🔹 UPLOAD DOCUMENT -->
+<h2>Upload Document/Image</h2>
+<form action="http://127.0.0.1:8000/upload/" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" required>
+    <button type="submit">Upload</button>
+</form>
+
+<hr>
+
+<!-- 🔹 AUDIO -->
+<h2>Upload Audio</h2>
+<form action="http://127.0.0.1:8000/audio/" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" required>
+    <button type="submit">Send Audio</button>
+</form>
+
+<hr>
+
+<!-- 🔹 VIDEO -->
+<h2>Upload Video</h2>
+<form action="http://127.0.0.1:8000/video/" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" required>
+    <button type="submit">Send Video</button>
+</form>
+
+</body>
+</html>
