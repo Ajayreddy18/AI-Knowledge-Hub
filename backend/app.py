@@ -19,7 +19,7 @@ def root():
     return {"message": "AI Knowledge Hub is running!"}
 
 
-# 🔥 UPLOAD API
+#  UPLOAD API
 @app.post("/upload/")
 async def upload_file(file: UploadFile = File(...)):
 
@@ -45,7 +45,7 @@ async def upload_file(file: UploadFile = File(...)):
     }
 
 
-# 🔥 CHAT API
+#  CHAT API
 @app.post("/chat/")
 async def chat(query: str = Form(...)):
 
@@ -71,7 +71,7 @@ async def chat(query: str = Form(...)):
     }
 
 
-# 🔥 AUDIO API
+#  AUDIO API
 @app.post("/audio/")
 async def audio_chat(file: UploadFile = File(...)):
 
@@ -103,7 +103,7 @@ async def audio_chat(file: UploadFile = File(...)):
     }
 
 
-# 🔥 VIDEO API (FIXED)
+#  VIDEO API 
 @app.post("/video/")
 async def video_chat(file: UploadFile = File(...)):
 
@@ -143,7 +143,7 @@ async def video_chat(file: UploadFile = File(...)):
     }
 
 
-# 🔥 UNIVERSAL ANALYZE API (FIXED)
+#  UNIVERSAL ANALYZE API 
 @app.post("/analyze/")
 async def analyze(file: UploadFile = File(...)):
 
