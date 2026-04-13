@@ -60,7 +60,7 @@ Tech Stack
 
 Project Structure
 
-
+```
 AI-Knowledge-Hub/
 │
 ├── backend/
@@ -79,7 +79,7 @@ AI-Knowledge-Hub/
 ├── temp/ # Temporary files
 ├── requirements.txt
 └── README.md
-
+```
 
 Installation Guide
 
