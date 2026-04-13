@@ -289,5 +289,5 @@ This project showcases my ability to independently build:
 * local LLM inference
 * product-ready AI MVPs
 
-It represents the type of **0→1 AI backend product engineering** I enjoy building for fast-mov
+It represents the type of **0→1 AI backend product engineering** I enjoy building for fast-moving startups
 
